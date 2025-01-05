@@ -3,11 +3,11 @@ Membuat Sebuah Map 2D Dengan Titik Mulai(Y) Dan Titik Tujuan(Z) Lalu Menghitung 
 
 # Contoh Input Dan Output
 **Input 5x5**
-bash```
+```bash
 XXXYX,XXXXX,XXXXX,XZXXX,XXXXX
 ```
 Apabila Dipetakan Menjadi Seperti Ini
-bash```
+```bash
 XXXYX
 XXXXX
 XXXXX
@@ -15,7 +15,7 @@ XZXXX
 XXXXX
 ```
 Bergerak 2 Langkah Ke Kiri
-bash```
+```bash
 XYXXX
 XXXXX
 XXXXX
@@ -23,7 +23,7 @@ XZXXX
 XXXXX
 ```
 Lalu Bergerak 3 Langkah Ke Bawah
-bash```
+```bash
 XXXXX
 XXXXX
 XXXXX
@@ -31,39 +31,39 @@ XYZXXX
 XXXXX
 ```
 **Output**
-bash```
+```bash
 Total 5 Langkah
 2 Langkah Ke Kiri
 3 Langkah Ke Bawah
 ```
 
 **Contoh Input 4x4**
-bash```
+```bash
 XXZX,XXXX,XXXX,XYXX
 ```
 Apabila Dipetakan Menjadi Seperti Ini
-bash```
+```bash
 XXZX
 XXXX
 XXXX
 XYXX
 ```
 Bergerak 1 Langkah Ke Kanan
-bash```
+```bash
 XXZX
 XXXX
 XXXX
 XXYX
 ```
 Lalu Bergerak 3 Langkah Ke Atas
-bash```
+```bash
 XXYZX
 XXXX
 XXXX
 XXXX
 ```
 **Output**
-bash```
+```bash
 Total 4 Langkah
 1 Langkah Ke Kanan
 3 Langkah Ke Atas
